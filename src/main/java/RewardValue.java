@@ -14,6 +14,7 @@ public class RewardValue {
       this.cashValue=milesValue*MILES_TO_CASH_CONVERSION_RATE;
    }
 
+   //Getters for values
    public  double getCashValue(){
       return this.cashValue;
 }
